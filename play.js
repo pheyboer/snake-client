@@ -12,6 +12,7 @@ const handleError = (conn) => {
 
 console.log("Connecting ...");
 const connection = connect(); //get connection info and hold in new variable
+//setupInput also uses this as reference
 handleError(connection); // pass connection info to handleError
 
 //calling setupInput
