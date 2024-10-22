@@ -27,6 +27,17 @@ const handleUserInput = function (key) {
   } else if (key === 'd') {
     connection.write("Move: right");
   }
+
+  //adding special keys for canned messages for all to see
+  if (key === 1) {
+    connection.write("You are doing a great job");
+  } else if (key === 2) {
+    connection.write("You are doing a great job");
+  } else if (key === 3) {
+    connection.write("You are doing a great job");
+  } else if (key === 4) {
+    connection.write("You are doing a great job");
+  }
 };
 
 module.exports = { setupInput };
