@@ -30,11 +30,11 @@ const handleUserInput = function (key) {
 
   //adding special keys for canned messages for all to see
   if (key === '1') {
-    connection.write("Say: You are doing a great job");
+    connection.write("Say: SLOW DOWN");
   } else if (key === '2') {
-    connection.write("Say: Snakes can be friends");
+    connection.write("Say: COME BACK");
   } else if (key === '3') {
-    connection.write("Say: I'm a SNAKKKKKKKKEEEEEEEE");
+    connection.write("Say: I'm a SNAKKKKKEE");
   } else if (key === '4') {
     connection.write("Say: HALLLLP");
   }
