@@ -1,4 +1,5 @@
-// establishes a connection with the game server
+const net = require("net");
+
 const connect = function () {
   const conn = net.createConnection({
     host: "localhost",
@@ -20,3 +21,5 @@ const connect = function () {
 
   return conn;
 };
+
+module.exports = connect ;
