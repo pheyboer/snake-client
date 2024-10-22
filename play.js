@@ -10,14 +10,14 @@ const connect = function () {
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
-  // message when connected
-  conn.on("connect", (data) => {
-   console.log("Connected");
-  });
-
-  //message when idle
+  // handle incoming data
   conn.on("data", (data) => {
     console.log(data);
+  });
+
+  //handle connection errors
+  conn.on("error", (error) => {
+    console.log("Connection Error:", error.message);
   });
 
   return conn;
