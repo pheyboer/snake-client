@@ -20,9 +20,10 @@ const connect = function () {
     console.log(data);
   });
 
-  //handle connection errors
+  //handle connection errors and close if needed
   conn.on("error", (error) => {
     console.log("Connection Error:", error.message);
+    conn.end(); 
   });
 
   return conn;
