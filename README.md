@@ -4,12 +4,24 @@ Snake game is a very popular video game. It is a video game concept where the pl
 
 This is simply a multiplayer take on the genre.
 
+A terminal-based Snake implementation written in JavaScript (Node.js).
+
 Before you can run this client, you will need to be running the server side which you can download and install from here. 
+
+## Credits
+
+This project was not built from scratch. It was inspired and started from snek (blog post). Tania Rascia is the original author.
+
+
+
+
+
+## Purpose
+
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+[Snake Final Product](/home/peterheyboer/lighthouse/snake-client/images/snakeclientfinal.png)
 
 
 ## Getting Started
