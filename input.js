@@ -29,14 +29,14 @@ const handleUserInput = function (key) {
   }
 
   //adding special keys for canned messages for all to see
-  if (key === 1) {
-    connection.write("You are doing a great job");
-  } else if (key === 2) {
-    connection.write("You are doing a great job");
-  } else if (key === 3) {
-    connection.write("You are doing a great job");
-  } else if (key === 4) {
-    connection.write("You are doing a great job");
+  if (key === '1') {
+    connection.write("Say: You are doing a great job");
+  } else if (key === '2') {
+    connection.write("Say: Snakes can be friends");
+  } else if (key === '3') {
+    connection.write("Say: I'm a SNAKKKKKKKKEEEEEEEE");
+  } else if (key === '4') {
+    connection.write("Say: HALLLLP");
   }
 };
 
