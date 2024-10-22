@@ -10,7 +10,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Credits
 
-This project was not built from scratch. It was inspired and started from snek (blog post). Tania Rascia is the original author.
+This project was not built from scratch. It was inspired and started from [snek](https://github.com/taniarascia/snek) [(blog post)](https://www.taniarascia.com/snake-game-in-javascript/). [Tania Rascia](https://www.taniarascia.com/) is the original author.
 
 
 
@@ -21,7 +21,7 @@ This project was not built from scratch. It was inspired and started from snek (
 
 ## Final Product
 
-[Snake Final Product](/home/peterheyboer/lighthouse/snake-client/images/snakeclientfinal.png)
+![Snake Final Product](lighthouse/snake-client/images/snakeclientfinal.png)
 
 
 ## Getting Started
