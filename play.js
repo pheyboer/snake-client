@@ -15,4 +15,4 @@ const connection = connect(); //get connection info and hold in new variable
 handleError(connection); // pass connection info to handleError
 
 //calling setupInput
-setupInput();
+setupInput(connection);
