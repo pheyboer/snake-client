@@ -25,6 +25,7 @@ This project was not built from scratch. It was inspired and started from [snek]
 - Traditional Game of Snake: viewed from a top down perspective
 - Contol a "snake" with a fixed starting position
 - The "head" of the snake moves forward based on your commands (see Commands) 
+- Eat the dots to grow
 - Avoid hitting walls and yourself!
 
 
