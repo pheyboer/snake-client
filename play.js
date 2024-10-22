@@ -20,14 +20,17 @@ const connect = function () {
     console.log(data);
   });
 
-  //handle connection errors and close if needed
+  return conn;
+};
+
+//handle error outside of connect function
+const handleError = (conn) => {
   conn.on("error", (error) => {
     console.log("Connection Error:", error.message);
     conn.end(); 
   });
-
-  return conn;
 };
 
 console.log("Connecting ...");
-connect();
+const connection = connect(); //get connection info and hold in new variable
+handleError(connection); // pass connection info to handleError
